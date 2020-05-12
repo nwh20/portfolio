@@ -1,0 +1,32 @@
+
+    {
+        "index": 1,
+        "title": "Korean Air Event",
+        "desc": "Single page for tour event",
+        "stack": "JavaScript HTML CSS",
+        "Year": 2019
+    },
+    {
+        "index": 2,
+        "title": "DI Office Web Site",
+        "desc": "Website with board",
+        "stack": "React JavaScript HTML CSS",
+        "Year": 2020
+    },
+    {
+        "index": 3,
+        "title": "Coming Soon",
+        "desc": "",
+        "stack": "",
+        "Year": null
+    },
+    // list sample, cover img files in src/img/work with index number as title
+    // {
+    //     "index": ,
+    //     "title": ,
+    //     "desc": ,
+    //     "stack": ,
+    //     "Year": 
+    // },
+
+
