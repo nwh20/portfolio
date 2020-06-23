@@ -6,4 +6,7 @@
 * React-Router
 * nuka-carousel
 
+### Demo
+https://nwh20.github.io/portfolio
+
 **thanks!**

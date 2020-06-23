@@ -24,7 +24,12 @@ const Skill = (props) => {
                 <div id="logo"><img src={logo} alt="namwonheo"></img></div>
                 <div id="skillBox" className="fadeIn" ref={pageToWork}>
                     <h1>Frontend Developer</h1>
-                    <p>Studied fine art &amp; art marketing in South Korea and France. Certified in frontend development from the Korean national course programme. Previously worked as a junior frontend developer for Korea General Construction Technology. Strong passion for acquiring new frontend skills and I am still learning every day. Check out what I'm insterested in!</p>
+                    <p>Studied fine art &amp; art marketing in South Korea and France. 
+                        Certified in frontend development from the Korean national course programme. 
+                        Previously worked as a junior frontend developer for Korea General Construction Technology. 
+                        Strong passion for acquiring new frontend skills and I am still learning every day. 
+                        Check out what I'm interested in!
+                    </p>
                     <ul>{skillList}</ul>
                     <br />
                     <p>hnamwon@gmail.com</p>
