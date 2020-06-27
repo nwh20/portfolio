@@ -23,7 +23,7 @@ const WorkSlide = () => {
             "desc": "Website with Ebay API & CRUD board ",
             "stack": "React, Styled-Component, Axios",
             "year": 2020,
-            "link": "https://nwh20.github.io/otc-react/",
+            "link": "https://otc-react.herokuapp.com",
             "cover": oldie
         },
         {
