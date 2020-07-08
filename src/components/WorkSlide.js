@@ -1,8 +1,8 @@
 import React from 'react';
 import Carousel from 'nuka-carousel';
-import bahamas from '../img/workslide-img/1.png';
-import oldie from '../img/workslide-img/2.png';
-import comingsoon from '../img/workslide-img/comingsoon.png';
+import bahamas from '../asset/workslide-img/1.png';
+import oldie from '../asset/workslide-img/2.png';
+import comingsoon from '../asset/workslide-img/comingsoon.png';
 
 const WorkSlide = () => {
     const list = [
@@ -42,7 +42,7 @@ const WorkSlide = () => {
     const workList = list.map((work, i) => 
         <div key={i} className="workPage" id={work.id}>
             <div className="workTxt" onClick={ () => {
-                window.open(work.link, 'newWindow');
+                window.open(work.link, '_blank');
             }}>
                 <div className="workTxt-wrap">
                     <h3>{work.title}</h3>

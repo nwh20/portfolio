@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
-import logo from '../logo.svg'
+import logo from '../asset/logo.svg';
+import Github from '../asset/Github-Small.svg';
 
 const Skill = (props) => {
     const paperScaleUp = useRef(null);
@@ -11,6 +12,10 @@ const Skill = (props) => {
         setTimeout(() => {
             props.history.push('/work')
         }, 1000);
+    }
+
+    const toGithub = () => {
+        window.open('https://github.com/nwh20', '_blank');
     }
 
     const skills = [ 'JavaScript + ES6+ ', 'React.js ', 'JQuery ', 'HTML5 & CSS3 ', '...' ];
@@ -32,8 +37,13 @@ const Skill = (props) => {
                     </p>
                     <ul>{skillList}</ul>
                     <br />
-                    <p>hnamwon@gmail.com</p>
-                    <div className="btnToWork" onClick={toWork}>work &rarr;</div>
+                    <div className="skillBottomLeft">
+                        <img src={Github} alt="githublogo" id="githubLogo" onClick={toGithub} />
+                        <span>hnamwon@gmail.com</span>
+                    </div>
+                    <div className="skillBottomRight">
+                        <span className="btnToWork" onClick={toWork}>work &rarr;</span>
+                    </div>
                 </div>
             </div>
         </>

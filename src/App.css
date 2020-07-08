@@ -21,7 +21,7 @@ html {
   min-height: 560px;
   border: 7px solid #3f518f;
   box-sizing: border-box;
-  background: url(./img/bgr2.png); 
+  background: url(./asset/bgr.png); 
   background-size: 68%;
   background-repeat: repeat;
   position: fixed;
@@ -64,22 +64,6 @@ html {
   transform: translate(-50%, -50%);
   display: block;
   box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.4);
-}
-
-.btnToWork {
-  width: 50px;
-  height: 50px;
-  cursor: pointer;
-  color: #495889;
-  font-size: 2.5rem;
-  text-align: right;
-  float: right;
-  line-height: 2rem;
-  margin: 20px;
-}
-
-.btnToWork:hover {
-  animation: work 0.3s steps(50) infinite;
 }
 
 #skillBox {
@@ -125,6 +109,44 @@ html {
 
 #skillBox li:last-child {
   text-decoration: none;
+}
+
+.skillBottomLeft {
+  display: inline-block;
+  width: 70%;
+  height: 30px;
+}
+
+.skillBottomLeft span {
+  font-size: 1.5rem;
+}
+
+.skillBottomLeft #githubLogo {
+  width: 17px;
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+  top: 5px;
+}
+
+.skillBottomRight {
+  width: 30%;
+  height: 30px;
+  display: inline-block;
+  text-align: right;
+}
+
+.skillBottomRight .btnToWork {
+  cursor: pointer;
+  color: #495889;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.skillBottomRight .btnToWork:hover {
+  animation: work 0.3s steps(50) infinite;
 }
 /* Skill */
 
@@ -379,11 +401,13 @@ html {
     top: 0;
     float: left;
     position: relative;
+    background-color: transparent;
   }
   .workTxt-wrap {
     width: 100%;
     line-height: 5px;
     cursor: default;
+    color: #3f518f;
   }
   .workImg {
     height: 300px;
@@ -398,10 +422,9 @@ html {
     transform: translate(-50%, -50%);
   }
   #prev, #next {
-    top: -150px;
     left: 0;
     right: 0;
-    color: #a4b6fa;
+    color: #3f518f;
   }
 
   @keyframes scaleUp {

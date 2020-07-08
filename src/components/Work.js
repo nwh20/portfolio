@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
-import logo from '../logo.svg'
-import WorkSlide from './WorkSlide'
+import logo from '../asset/logo.svg';
+import WorkSlide from './WorkSlide';
 
 const Work = (props) => {
     const paperScaleDown = useRef(null);
