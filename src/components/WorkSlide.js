@@ -2,6 +2,7 @@ import React from 'react';
 import Carousel from 'nuka-carousel';
 import bahamas from '../asset/workslide-img/1.png';
 import oldie from '../asset/workslide-img/2.png';
+import newtube from '../asset/workslide-img/3.png';
 import comingsoon from '../asset/workslide-img/comingsoon.png';
 
 const WorkSlide = () => {
@@ -20,7 +21,7 @@ const WorkSlide = () => {
             "index": 2,
             "id": "oldie",
             "title": "Oldie The Camera",
-            "desc": "Website with Ebay API & CRUD board ",
+            "desc": "Website with Ebay API & CRUD board",
             "stack": "React, Styled-Component, Axios",
             "year": 2020,
             "link": "https://otc-react.herokuapp.com",
@@ -28,6 +29,16 @@ const WorkSlide = () => {
         },
         {
             "index": 3,
+            "id": "newtube",
+            "title": "FE Newtube 5",
+            "desc": "Website for the lastest videos on Youtube",
+            "stack": "React, SCSS, Youtube API",
+            "year": 2020,
+            "link": "https://nwh20.github.io/fe-newtube-5/",
+            "cover": newtube
+        },
+        {
+            "index": 4,
             "id": "comingsoon",
             "title": "",
             "desc": "",
