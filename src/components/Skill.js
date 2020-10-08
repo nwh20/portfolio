@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import logo from '../asset/logo.svg';
 import Github from '../asset/Github-Small.svg';
+import LinkedIn from '../asset/LinkedIn-Small.svg';
 
 const Skill = (props) => {
     const paperScaleUp = useRef(null);
@@ -16,6 +17,10 @@ const Skill = (props) => {
 
     const toGithub = () => {
         window.open('https://github.com/nwh20', '_blank');
+    }
+
+    const toLinkedIn = () => {
+        window.open('https://www.linkedin.com/in/heonw', '_blank');
     }
 
     const skills = [ 'JavaScript + ES6+ ', 'React.js ', 'JQuery ', 'HTML5 & CSS3 ', '...' ];
@@ -38,7 +43,8 @@ const Skill = (props) => {
                     <ul>{skillList}</ul>
                     <br />
                     <div className="skillBottomLeft">
-                        <img src={Github} alt="githublogo" id="githubLogo" onClick={toGithub} />
+                        <img src={Github} alt="githublogo" id="snsLogo" onClick={toGithub} />
+                        <img src={LinkedIn} alt="linkedinlogo" id="snsLogo" onClick={toLinkedIn} />
                         <span>hnamwon@gmail.com</span>
                     </div>
                     <div className="skillBottomRight">

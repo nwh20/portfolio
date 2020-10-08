@@ -19,10 +19,10 @@ html {
   height: 100vh;
   min-width: 320px;
   min-height: 560px;
-  border: 7px solid #3f518f;
+  border: 7px solid #bd2d2d;
   box-sizing: border-box;
-  background: url(./asset/bgr.png); 
-  background-size: 68%;
+  background: url(./asset/bgr2.png); 
+  background-size: 85%;
   background-repeat: repeat;
   position: fixed;
 }
@@ -103,7 +103,7 @@ html {
   display: inline;
   margin-right: 30px;
   text-decoration: underline;
-  text-decoration-color: #DE2477;
+  text-decoration-color: #bd2d2d;
   text-decoration-style: wavy;
 }
 
@@ -118,14 +118,16 @@ html {
 }
 
 .skillBottomLeft span {
-  font-size: 1.5rem;
+  line-height: 5rem;
+  font-size: 1.7rem;
+  display: block;
 }
 
-.skillBottomLeft #githubLogo {
+.skillBottomLeft #snsLogo {
   width: 17px;
   position: relative;
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 20px;
   cursor: pointer;
   top: 5px;
 }
@@ -185,7 +187,7 @@ html {
 
 .btnToSkill:hover {
   text-decoration: underline;
-  text-decoration-color: #DE2477;
+  text-decoration-color: #bd2d2d;
   text-decoration-style: wavy;
 }
 
@@ -214,7 +216,7 @@ html {
   z-index: 9;
   opacity: 0;
   transition: 0.5s ease;
-  background-color: #4b5c96b9;
+  background-color: #bd7979c9;
 }
 
 .workTxt:hover {
